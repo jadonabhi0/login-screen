@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500&family=Noto+Sans:wght@300;400;500&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Barlow;
+}
+
+.container{
+    
+    /* border: 2px solid green; */
+    height: 100vh;
+    width: 100vw;
+    /* margin: 10rem auto; */
+    /* background-color: black; */
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.593), rgba(0, 0, 0, 0.52)),  url('./image.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    
+
+}
+
+.main-heading{
+    color: white;
+    font-weight: 300;
+    font-size: 5em;
+    /* border: 2px solid red; */
+    text-align: center;
+    letter-spacing: 0.16em;
+    padding-top: 5rem;
+}
+
+.main-heading P{
+    display: inline-block;
+}
+.main-heading p::first-letter{
+    color: #FF6900;
+}
+
+
+.login-container{
+    /* border: 2px solid red; */
+    height: 40%;
+    width: 30%;
+    margin-top: 13rem;
+    margin-left: 5rem;
+    box-shadow: 10px 5px 10px black;
+    box-sizing: border-box;
+}
+
+.login-heading {
+
+    color: rgb(228, 221, 221);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10rem;
+    
+}
+
+.login-input{
+    width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+    /* border: 2px solid green; */
+    
+}
+
+.login-input input{
+    color: white;
+    border:none;
+    width: 100%;
+    height: 2.5em;
+    margin-bottom: 1rem;
+    /* margin-left: 7rem; */
+    border-bottom: 2px solid #ff6900;
+    padding:10px ;
+    
+    
+}
+
+.recover{
+    /* border: 2px solid green; */
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.remember{
+    /* border: 2px solid lightblue; */
+    width: 40%;
+    float: left;
+    text-align: left;
+    
+}
+
+.remember input, p{
+    display: inline-block;
+}
+
+.forget{
+    /* border: 2px solid lightblue; */
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+.recover::after{
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+
+.submit{
+    margin-top: 2em;
+    width: 20%;
+    height: 10%;
+    background-color: #FF6900;
+    font-size: 1.5em;
+    color: white;
+}
+
